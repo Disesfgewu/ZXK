@@ -18,7 +18,7 @@ int main ()
 	for ( int i = 0 ; i < n ; i++ )
 	{
 		int y = A[i].second ;        // 取得y座標 
-		int find_min = upper_bound( d.begin() , d.end() , y ) - d.begin() ;// 於子數列中找尋排序有無比y值更大的數值 
+		int find_min = upper_bound( d.begin() , d.end() , y ) - d.begin() ;// 於子數列中找尋序列中有無比y值更大的數值 
 		if ( find_min >= d.size() )
 			d.push_back(y) ;		// 如果沒有 則直接放入 
 		else
