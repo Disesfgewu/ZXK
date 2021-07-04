@@ -8,8 +8,8 @@ int n ;
 pair <int , int > A[nmax] ;
 int main ()
 {
-    cin.tie(0) ;
-    cout.tie(0) ;
+        cin.tie(0) ;
+        cout.tie(0) ;
 	cin >> n ;
 	for ( int i = 0 ; i < n ; i++ )
 		cin >> A[i].first >> A[i].second ;
