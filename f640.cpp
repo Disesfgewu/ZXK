@@ -1,6 +1,6 @@
 // APCS 2019 / 2 第三題
 /*
-題目說明：
+題目說明：（來源：https://zerojudge.tw/ShowProblem?problemid=f640）
 有三個函數：
 
 f(x) = 2x – 3
